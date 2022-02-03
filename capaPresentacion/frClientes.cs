@@ -69,8 +69,21 @@ namespace capaPresentacion
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            cEClientes.Id = (int)txtId.Value;
-            cNCliente.EliminarCliente(cEClientes) ;
+            if (txtId.Value == 0)
+            {
+                MessageBox.Show("Seleccione un registro");
+            }
+            else
+            {
+                if (MessageBox.Show("Desea eliminar el registro?", "Titulo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    cEClientes.Id = (int)txtId.Value;
+                    cNCliente.EliminarCliente(cEClientes);
+                }
+                else return;
+                
+            }
+         
             CargarDatos();
         }
 
