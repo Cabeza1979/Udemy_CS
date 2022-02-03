@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "75b8a650-8d1c-4251-8f3a-d710caf0bbdf": {
+      "ProjectGuid": "75b8a650-8d1c-4251-8f3a-d710caf0bbdf",
+      "DisplayName": "capaDatos",
+      "ColorIndex": 0
+    },
+    "7ad34a48-7114-4215-9942-0e63e2705875": {
+      "ProjectGuid": "7ad34a48-7114-4215-9942-0e63e2705875",
+      "DisplayName": "capaEntidad",
+      "ColorIndex": 1
+    },
+    "4b266452-5d62-46c4-9fe7-baeac2599215": {
+      "ProjectGuid": "4b266452-5d62-46c4-9fe7-baeac2599215",
+      "DisplayName": "capaNegocio",
+      "ColorIndex": 2
+    },
+    "65c1f52d-db35-4556-be5f-b6f33ae0a5e1": {
+      "ProjectGuid": "65c1f52d-db35-4556-be5f-b6f33ae0a5e1",
+      "DisplayName": "capaPresentacion",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
